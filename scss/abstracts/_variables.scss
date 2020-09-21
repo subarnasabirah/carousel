@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+// $body-font: 'Open Sans', 'Helvetica Neue Light';
+
+// // Base colors
+// $body-color: #333;
+// $p-color: #333; // <p> tag color
+// $a-color: #337ab7; // links color
+
+// //$color-scheme: @@@@
+
+// // Font sizes
+// $base-font-size: 14px;
+
+// /// Copy text color
+// /// @type Color
+// $text-color: rgb(34, 34, 34) !default;
+
+// /// Main brand color
+// /// @type Color
+$brand-color: rgba(23, 26, 33,1)!default;
+//$brand-color: #4b7bec!default;#40407  #34ace0 #3c40c6  #706fd3
+ //$brand-color: #160066 !default;
+ //$brand-color: #575fcf!default;
+//$brand-color: #13044F !default;
+$brand-color-dark: #0B0039 !default;
+
+// /// Light grey
+// /// @type Color
+// $light-grey: rgb(237, 237, 237) !default;
+
+// /// Medium grey
+// /// @type Color
+// $mid-grey: rgb(153, 153, 153) !default;
+
+// /// Dark grey
+// /// @type Color
+// $dark-grey: rgb(68, 68, 68) !default;
+
+// /// Relative or absolute URL where all assets are served from
+// /// @type String
+// /// @example scss - When using a CDN
+// ///   $base-url: 'http://cdn.example.com/assets/';
+// $assets-dir: 'assets/' !default;
+// $images-dir: 'assets/images/' !default;
+// $plugins-dir: 'assets/images/' !default;
+
+
+//$crimson-color: rgb(101, 188, 123);
+ $crimson-color: crimson;
+$white-color: #fff;
+$bg-color: $brand-color;
+$blu-color: #686ab3; // TODO: should be same color.
+$light-blue: $brand-color-dark;
+$focus-color: #7e7ef2;
+
+$title-color: #414142;
+$boxshadow-color: #dadbff;
+$beforebg-color: #EEEEFE;
+$light-color: #edeaea;
+$contnt-bg-color: #F9F9FF;
+$spn-text-color: #686868;
+$frm-dbg-color: #E1E1FF;
+$frm-dbr-color: #EFEFFF;
+$frm-br-btm: #D4D4FF;
+$ftr-color: #e5e5e5;
+
+
+
+
+

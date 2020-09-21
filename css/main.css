@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,700,900");
+.latest-news-area .news-heading h2 { font-weight: 700; font-size: 32px; letter-spacing: 1px; color: #171a21; padding-bottom: 20px; line-height: 1.2; }
+
+/* ---------------------- 1. Base ---------------------- */
+/* --------------------- 1 Base --------------------- */
+a { color: #171a21; text-decoration: none; }
+
+img { max-width: 100%; }
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Raleway', sans-serif; }
+
+.container { max-width: 1200px; }
+
+/* --------------------- 2 Fonts --------------------- */
+/* ------------------- 3 Typography ------------------ */
+/* --------------------- 2. Layout --------------------- */
+/* --------------------- 1 Header --------------------- */
+/* --------------------- 2 Footer --------------------- */
+/* ------------------- 3. components ------------------- */
+/* --------------------- 1 button --------------------- */
+.owl-carousel .owl-dots { text-align: center; padding-top: 10px; }
+
+.owl-carousel .owl-dots .owl-dot { background-color: #E1E1FF !important; opacity: 0.7; display: inline-block; height: 15px; margin: 0 3px; width: 15px; border-radius: 100%; }
+
+.owl-carousel .owl-dots .owl-dot.active { background-color: #6B6FFF !important; height: 15px; width: 15px; border-radius: 100%; }
+
+.owl-carousel .owl-dots .owl-dot .owl-dots { text-align: center !important; margin-top: 30px; }
+
+/* --------------------- 4. pages ---------------------- */
+/* -----------------  1. Home page ---------------- */
+.latest-news-area { padding: 90px 0; }
+
+.latest-news-area .news-heading { text-align: center; display: inline-block; margin: auto; }
+
+.latest-news-area .news-heading h2 { color: #000000; margin-bottom: 60px; }
+
+@media all and (max-width: 575px) { .latest-news-area .news-heading h2 { transition: .5s; margin-bottom: 40px; } }
+
+.latest-news-area .news-heading h4 { display: inline-block; text-transform: uppercase; color: #000000; font-size: 18px; margin-bottom: 10px; letter-spacing: 1px; }
+
+.latest-news-area .single-news { background-color: #fff; overflow: hidden; margin-bottom: 30px; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s; }
+
+@media all and (max-width: 320px) { .latest-news-area .single-news { transition: .5s; top: 1022px; } }
+
+.latest-news-area .single-news .news-image { position: relative; overflow: hidden; }
+
+.latest-news-area .single-news .news-image img { width: 100%; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s; }
+
+.latest-news-area .single-news:hover { -webkit-box-shadow: 0px 15px 15px 0px #edeaea; box-shadow: 0px 15px 15px 0px #edeaea; -webkit-transform: translateY(-10px); -ms-transform: translateY(-10px); transform: translateY(-10px); }
+
+.latest-news-area .news-content { padding: 20px 20px 25px 20px; }
+
+.latest-news-area .news-content h3 { font-size: 25px; font-weight: 700; margin-bottom: 20px; }
+
+.latest-news-area .news-content p { font-size: 15.5px; line-height: 26px; }
+
+.latest-news-area .news-content a { text-decoration: none; }
+
+.latest-news-area .news-content-heading { display: inline-block; width: 30%; }
+
+@media all and (max-width: 575px) { .latest-news-area .news-content-heading { transition: .5s; display: inline-block; width: 20%; } }
+
+@media all and (max-width: 460px) { .latest-news-area .news-content-heading { transition: .5s; display: inline-block; width: 25%; } }
+
+@media all and (max-width: 360px) { .latest-news-area .news-content-heading { transition: .5s; display: inline-block; width: 32%; } }
+
+@media all and (max-width: 320px) { .latest-news-area .news-content-heading { transition: .5s; display: inline-block; width: 40%; } }
+
+.latest-news-area .news-content-heading h4 a { font-size: 13px; color: #414142; text-decoration: none; }
+
+.latest-news-area .news-date { display: inline-block; width: 45%; }
+
+.latest-news-area .news-date span { font-size: 13px; color: #686868; text-transform: capitalize; display: block; }
+
+.latest-news-area .news-bottom { background-color: #E1E1FF; padding: 8px; }
+
+.latest-news-area .news-bottom .news-btn { display: inline-block; text-transform: uppercase; font-size: 13px; color: #000000; width: 80%; padding: 10px 20px; }
+
+@media all and (max-width: 575px) { .latest-news-area .news-bottom .news-btn { transition: .5s; display: inline-block; width: 85%; } }
+
+@media all and (max-width: 460px) { .latest-news-area .news-bottom .news-btn { transition: .5s; display: inline-block; width: 82%; } }
+
+@media all and (max-width: 360px) { .latest-news-area .news-bottom .news-btn { transition: .5s; display: inline-block; width: 75%; } }
+
+.latest-news-area .news-bottom a { text-decoration: none; }
+
+.latest-news-area .news-bottom .news-btn-two { width: 20%; background-color: #6B6FFF; padding: 5px; color: #fff; }
+
+.latest-news-area .news-bottom .news-btn-two i { padding: 5px; }
+
+/*# sourceMappingURL=main.css.map */
