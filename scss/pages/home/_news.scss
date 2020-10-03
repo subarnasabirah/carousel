@@ -4,8 +4,6 @@
 
 .news-heading{
     text-align: center;
-    display: inline-block;
-    margin: auto;
     h2{
         @extend %sectionTitleTwo;
         color: #000000;
@@ -117,7 +115,7 @@
 }
 
 .news-bottom{
-    background-color: #F9F9FF
+    background-color: #F9F9FF;
     padding: 8px;
     .news-btn{
         display: inline-block;

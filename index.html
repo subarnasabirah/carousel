@@ -18,14 +18,16 @@
     <div class="latest-news-area">
         <div class="container">
             <div class="row">
-                <div class="news-heading">
-                    <h4>Stay Informed</h4>
-                    <h2>Latest news</h2>
-                </div>
+               <div class="col-sm-12">
+                   <div class="news-heading">
+                       <h4>Stay Informed</h4>
+                       <h2>Latest news</h2>
+                   </div>
+               </div>
             </div>
             <!-- single-news area carousel -->
-            <div class="row pa-margintop">
-                <div class="dot-list owl-carousel">
+            <div class="row">
+                <div class=" owl-carousel" id="latestNewsCarousel">
                     <!-- single-news -->
                     <div class="col-xl-12 col-md-12 cik-sm-12 col-xs-12">
                         <div class="single-news">
@@ -235,5 +237,28 @@
 <script src="plugins/popper-1.14.7/popper.min.js"></script>
 <script src="plugins/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
+<script>
+    //carousel
+    $('#latestNewsCarousel').owlCarousel({
+        loop: true,
+        autoplayHoverPause: true,
+        margin: 20,
+        nav: false,
+        autoplay: true,
+        dots: true,
+        smartSpeed: 1000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    });
+</script>
 </body>
 </html>

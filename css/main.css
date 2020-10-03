@@ -31,7 +31,7 @@ img { max-width: 100%; }
 /* -----------------  1. Home page ---------------- */
 .latest-news-area { padding: 90px 0; }
 
-.latest-news-area .news-heading { text-align: center; display: inline-block; margin: auto; }
+.latest-news-area .news-heading { text-align: center; }
 
 .latest-news-area .news-heading h2 { color: #000000; margin-bottom: 60px; }
 
@@ -73,7 +73,7 @@ img { max-width: 100%; }
 
 .latest-news-area .news-date span { font-size: 13px; color: #686868; text-transform: capitalize; display: block; }
 
-.latest-news-area .news-bottom { background-color: #E1E1FF; padding: 8px; }
+.latest-news-area .news-bottom { background-color: #F9F9FF; padding: 8px; }
 
 .latest-news-area .news-bottom .news-btn { display: inline-block; text-transform: uppercase; font-size: 13px; color: #000000; width: 80%; padding: 10px 20px; }
 
