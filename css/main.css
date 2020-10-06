@@ -19,7 +19,7 @@ img { max-width: 100%; }
 /* --------------------- 1 button --------------------- */
 .owl-carousel .owl-dots { text-align: center; padding-top: 10px; }
 
-.owl-carousel .owl-dots .owl-dot { background-color: #E1E1FF !important; opacity: 0.7; display: inline-block; height: 15px; margin: 0 3px; width: 15px; border-radius: 100%; }
+.owl-carousel .owl-dots .owl-dot { background-color: #E1E1FF !important; opacity: 0.7; display: inline-block; height: 15px; margin: 0 3px; width: 15px; border-radius: 100%; outline: 0; }
 
 .owl-carousel .owl-dots .owl-dot.active { background-color: #6B6FFF !important; height: 15px; width: 15px; border-radius: 100%; }
 
